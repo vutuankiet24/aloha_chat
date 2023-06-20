@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog">-->
+<!--        &lt;!&ndash; Màu nền cho dialog trong chế độ sáng &ndash;&gt;-->
+<!--        <item name="android:windowBackground">@color/dialog_background_light</item>-->
+<!--        &lt;!&ndash; Màu nền cho dialog trong chế độ tối &ndash;&gt;-->
+<!--        <item name="android:windowBackground">@color/dialog_background_dark</item>-->
+<!--    </style>-->
+
+    <style name="circle">
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+</resources>

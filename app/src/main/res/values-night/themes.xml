@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Aloha" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!--        <item name="android:windowActionBar">true</item>-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="screen">
+        <item name="android:background">#101010</item>
+    </style>
+
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="android:background">@color/bg_search_dark</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:backgroundTint">@color/bg_search_dark</item>
+    </style>
+</resources>

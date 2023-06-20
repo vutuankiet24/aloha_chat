@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#00FF00" /> <!-- Màu xanh -->
+    <size
+        android:width="8dp"
+        android:height="8dp" /> <!-- Kích thước chấm -->
+</shape>

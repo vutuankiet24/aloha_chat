@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_profile"
+        android:title="Xem ho so"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/menu_item_add_friend"
+        android:title="Them ban"
+        android:icon="@drawable/ic_user_add"
+        app:showAsAction="always|withText" />
+    <item
+        android:visible="false"
+        android:id="@+id/menu_item_send_friend"
+        android:title="Da gui"
+        android:icon="@drawable/ic_user_right_arrow"
+        app:showAsAction="always|withText" />
+    <item
+        android:visible="false"
+        android:id="@+id/menu_item_success_friend"
+        android:title="Chap nhan"
+        android:icon="@drawable/ic_user_hourglass"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/menu_item_block"
+        android:title="Chan"
+        android:icon="@drawable/ic_block"
+        app:showAsAction="always|withText" />
+    <item
+        android:visible="false"
+        android:id="@+id/menu_item_delete_friend"
+        android:title="Xoa"
+        android:icon="@drawable/ic_user_x"
+        app:showAsAction="always|withText" />
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="10dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="100dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="100dp"
+            android:layout_margin="2dp">
+
+            <ImageView
+                android:id="@+id/imageUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/aloha_logo"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/viewSupporter"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintStart_toEndOf="@id/cardView"
+        app:layout_constraintTop_toTopOf="@id/cardView"/>
+
+    <TextView
+        android:id="@+id/textUserName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Vu Tuan Kiet"
+        app:layout_constraintEnd_toEndOf="@+id/imageCheckSend"
+        app:layout_constraintBottom_toTopOf="@+id/viewSupporter"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintEnd_toStartOf="@+id/imageCheckSend"/>
+
+    <TextView
+        android:id="@+id/textRecentMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="15dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#9C9898"
+        android:text="Vu Tuan Kiet"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageCheckSend"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/viewSupporter"
+        app:layout_constraintEnd_toStartOf="@+id/imageCheckSend"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageCheckSend"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:riv_oval="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aloha_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/textUserName"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

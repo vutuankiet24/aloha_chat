@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_chats"
+        android:icon="@drawable/ic_chat"
+        android:title="Chats" />
+    <item
+        android:id="@+id/navigation_add_user"
+        android:icon="@drawable/ic_user_add"
+        android:title="Add Friend" />
+    <item
+        android:id="@+id/navigation_user_invite"
+        android:icon="@drawable/ic_user_hourglass"
+        android:title="Friend Invite" />
+    <item
+        android:id="@+id/navigation_list_user"
+        android:icon="@drawable/ic_users_list"
+        android:title="List Friend" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+</menu>
